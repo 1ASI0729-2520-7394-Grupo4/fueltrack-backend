@@ -1,4 +1,4 @@
-package com.example.fuel.track.backend.sales.infrastructure.persistence.jpa;
+package com.example.fuel.track.backend.sales.infrastructure.persistence.jpa.repositories;
 
 import com.example.fuel.track.backend.sales.domain.model.aggregates.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;

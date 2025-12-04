@@ -3,7 +3,7 @@ package com.example.fuel.track.backend.sales.application.internal.queryservices;
 import com.example.fuel.track.backend.sales.domain.model.aggregates.Payment;
 import com.example.fuel.track.backend.sales.domain.model.queries.GetAllPaymentsQuery;
 import com.example.fuel.track.backend.sales.domain.services.PaymentQueryService;
-import com.example.fuel.track.backend.sales.infrastructure.persistence.jpa.PaymentRepository;
+import com.example.fuel.track.backend.sales.infrastructure.persistence.jpa.repositories.PaymentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
