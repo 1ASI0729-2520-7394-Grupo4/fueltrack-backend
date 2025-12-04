@@ -94,7 +94,7 @@ public class WebSecurityConfiguration {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.cors(configurer -> configurer.configurationSource(request -> {
             var cors = new CorsConfiguration();
-            cors.setAllowedOrigins(List.of("http://localhost:4200"));
+            cors.setAllowedOrigins(List.of("http://localhost:4200", "https://fueltrack-frontend.vercel.app"));
             cors.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE"));
             cors.setAllowedHeaders(List.of("*"));
             cors.setAllowCredentials(true);
