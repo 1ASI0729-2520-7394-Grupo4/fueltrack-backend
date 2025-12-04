@@ -1,4 +1,4 @@
-package com.example.fuel.track.backend.control.interfaces.rest;
+package com.example.fuel.track.backend.control.interfaces.rest.resources;
 
 import com.example.fuel.track.backend.control.application.OrderQueryService;
 import com.example.fuel.track.backend.control.domain.model.aggregates.Order;
